@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<!--Used for Searchengines, so use it-->
+		<meta name="description" content="This is an awesome website!">
+		<meta name="author" content="Timur Schiwe">
+		<meta name="keywords" content="HTML, Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Timur´s Website</title>
+	</head>
+	<body style="background-color:beige">		
+		<!-- Good structure with tags is important, plus for searching your website, very powerfull-->
+		<header>
+			<nav>
+				<!-- Navigational items, navigational tool bar -->
+			</nav>
+		</header>
+		<main>			
+			<!--- Links, a lot of features and parameters
+				the same with e.g pictures --->
+			<a href="https://www.google.com" target="_blank"><h3>Googles Homepage</h3></a>
+			<a href="page2.html"><h2>Deni's Website</h2></a>
+			<a href="dir1/page3.html">
+				<!-- Images, now inside the Dino pic, alt attribute is very important, if image is broken -->
+				<img width="200" src="https://mytoys.scene7.com/is/image/myToys/ext/8265025-01.jpg?$rtf_mt_prod-main-zoom_xl$" alt="A really scary Dino"/>
+			</a>
+			
+			<!--Video, if you want add "autoplay, loop, controls"-->
+			<video width="400" src="video1.mp4" poster="thumbnail.jpg" controls>Fail opening video</video>
+			
+			<!--video from youtube, just share, embed, copy, paste -->
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/mo2Uh39MYXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<br/>
+			<!--Lists, unordered lists = ul, ordered = ol, list item = li -->
+			<ol type="I">
+				<li><a href="#">Apples</a></li>
+				<li>Oranges
+					<ol>
+						<li>Mandarine</li>
+					</ol>
+				</li>
+				<li>Bananas</li>
+			</ol>
+			<!-- dexription list -->
+			<dl>
+				<dt>Apples </dt>
+				<dd>They are red</dd>
+				<dt>Oranges </dt>
+				<dd>They are orange</dd>
+			</dl>
+			<hr/>
+			<br/>
+			<!--Tables: th = table headers, tr = table row, td = table data-->
+			<table border="2">
+				<thead>
+					<caption><h4>Table of Numbers</h4></caption>
+					<style>
+						table,
+						th,
+						td {
+						padding: 10px;
+						border: 1px solid black;
+						border-collapse: collapse;
+						}
+					</style>
+					<tr>
+						<th>num1</th>
+						<th>num2</th>
+						<th>num3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td colspan="1">one</td>
+						<td>two</td>
+						<td>three</td>
+					</tr>
+					<tr>
+						<td>four</td>
+						<td>five</td>
+						<td>six</td>
+					</tr>
+				</tbody>
+			</table>
+			<hr/>
+			
+			<!--Divs and Spans = Containers, Wrappers-->
+				<!--Inline Elements, (spans)-->
+			<a href="#">link1</a>
+			<a href="#">link2</a>
+			
+			<span>span1</span>
+			<span>span2</span>
+			
+				<!--Block Elements (divs)-->
+			<p>Paragraph1</p>
+			<p>Paragraph2</p>
+			
+			<div>div1</div>
+			<div>div2</div>
+			
+			<hr/>
+			<!--INPUT, here comes JavaScript-->
+			<h2>Input</h2>
+			<p>In order to work with the Information the User put in the TextBox you need to learn JavaScript</p>
+			<input type="text" value="Username"/>
+			<input type="password" />
+			<textarea rows="10" cols="30">
+				Enter a paragraph
+			</textarea>
+			<input type="date" />
+			<input type="range" />
+			<input type="file" />
+			<form>
+				<input name="btn" type="radio" />
+				<input name="btn" type="radio" />
+				<input type="submit" />
+			</form>
+			
+			<hr/>
+			<h3>iFrames, Websites inside your Website </h3>
+			<p>Some websites do not allow you to do it! Like Amazon e.g.</p>
+			<!--iFrames-->
+			<iframe src="http://giraffeacademy.com" width="1000" height="800">Sorry, cannot view it</iframe>
+			
+			
+			
+			<hr/>
+			<h1>Hello World</h1>
+			<h4>Once again Hello, but smaller</h4> 
+			<br/> <!--- Single tag, Zeilenumbruch --->
+			<hr/> <!--- Single tag, horizontal Line --->
+			<p> <big>Hello</big> <small>my dear</small> <b>friends</b>. This is my <b><i>first</i></b> website, and im gonna go through that 2 hours long tutorial!</p>
+			<p>H<sub>2</sub>0 </p>
+			<p>10<sup>2</sup>=100</p>
+			<!-- Comments -->
+			<h2>Style and Colors</h2>
+			<hr/>
+			<p>Here comes CSS, but thats another <b>BIG</b> topic</p>
+			<p style="color:blue; background-color:white">So lets concentrate on html</p>
+			<!--Structure-->
+			<article>
+				<!-- Article tag -->
+				<section>
+					<!-- Section  -->
+					<aside>
+						<!-- e.g. Advertisement here, nothing to do with the Website, but still needed -->
+					</aside>
+				</section>
+			</article> 
+		</main>
+		<footer>
+			
+		</footer>				
+	</body>
+</html>
